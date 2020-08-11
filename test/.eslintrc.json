@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "fetch": true
+  },  
+  "rules": {
+      "node/no-unpublished-require": 0
+  }
+}

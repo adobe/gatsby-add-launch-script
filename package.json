@@ -1,0 +1,45 @@
+{
+  "name": "@adobe/gatsby-add-launch-script",
+  "version": "0.0.1",
+  "homepage": "https://github.com/adobe/gatsby-add-launch-script",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/adobe/gatsby-add-launch-script",
+  "bugs": {
+    "url": "https://github.com/adobe/gatsby-add-launch-script"
+  },
+  "scripts": {
+    "e2e": "jest --config e2e/jest.config.js",
+    "lint": "eslint . test",
+    "test": "npm run lint && npm run unit-tests",
+    "unit-tests": "jest --config test/jest.config.js --maxWorkers=2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.23.11"
+  },
+  "devDependencies": {
+    "@adobe/eslint-config-aio-lib-config": "^1.2.0",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-jest": "^26.3.0",
+    "eslint": "^6.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsdoc": "^21.0.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.0.1",
+    "jest-junit": "^10.0.0",
+    "react-test-renderer": "^16.13.1",
+    "stdout-stderr": "^0.1.13"
+  }
+}
