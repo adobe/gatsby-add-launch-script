@@ -35,7 +35,7 @@ plugins: [
     resolve: `@adobe/gatsby-add-launch-script`,
     options: {
       includeInDevelopment: true,
-      scriptUrl: 'https://some-adobe-launch-script.example
+      scriptUrl: 'https://some-adobe-launch-script.example'
     }
   }
 ];
