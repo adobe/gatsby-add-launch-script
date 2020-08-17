@@ -13,7 +13,8 @@
 // eslint-disable-next-line no-unused-vars
 const React = require('react')
 
-exports.onRenderBody = ({ setHeadComponents }, pluginOptions = {}) => {
+// eslint-disable-next-line node/no-unsupported-features/es-syntax
+export const onRenderBody = ({ setHeadComponents }, pluginOptions = {}) => {
   if (
     process.env.NODE_ENV === 'production' ||
     pluginOptions.includeInDevelopment
