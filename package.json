@@ -14,7 +14,7 @@
     "unit-tests": "jest --config test/jest.config.js --maxWorkers=2"
   },
   "engines": {
-    "node": ">=14.50.0"
+    "node": ">=14.15.0"
   },
   "dependencies": {
     "react": "^16.13.1",
